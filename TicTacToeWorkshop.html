@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<head>
+    <title>TipTapToe</title>
+    <link rel="stylesheet" href="TicTacToeWorkshop.css" />
+</head>
+<body>
+    <h2>Changez la page pour faire apparaître le jeu !</h2>
+    <h3>Bienvenue sur le jeu du Morpion. Faites des parties avec votre voisin, puis mettez vos scores à jour !</h3>
+    <div class="line">
+        <div class="column">
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+        </div>
+        <div class="column">
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+        </div>
+        <div class="column">
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+        </div>
+    </div>
+    <div class="score">
+        <div>
+            <p>Score du joueur X : <b id="ScoreX">0</b></p>
+            <button id="buttonX" onclick="AddAPointX()">Ajouter un point</button>
+        </div>
+        <div>  
+            <p>Score du joueur O : <b id="ScoreO">0</b></p>
+            <button id='buttonO'onclick="AddAPointO()">Ajouter un point</button>
+        </div>
+    </div>
+    <script src="TicTacToeWorkshop.js"></script>
+</body>
+</html>
